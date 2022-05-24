@@ -503,3 +503,8 @@ export ARM_CLIENT_SECRET="<您的password>"
   ```
   terraform apply
   ```
+- 完成後，您即可看到以下畫面與 Azure Portal 所建立的資源<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/terraformfinish.png "terraformfinish")<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/azureresource.png "azureresource")<br>
+
+前往 [Lab2 - 使用 Kerberos 驗證](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab2.md)<br>
