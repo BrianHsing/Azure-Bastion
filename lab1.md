@@ -495,11 +495,11 @@ export ARM_CLIENT_SECRET="<您的password>"
     }
 
     ````
-- 初始化 Terraform 並且下載建立 Azure 資源群組所需要的模組<br>
+- 初始化 Terraform 並且下載建立 Azure 資源群組所需要的模組，請在 vscode 下方的 terminal 直接輸入指令<br>
   ```
   terraform init
   ```
-- 套用 Terraform 在 Azure 環境中部署資源群組<br>
+- 套用 Terraform 在 Azure 環境中部署資源群組，請在 vscode 下方的 terminal 直接輸入指令<br>
   ```
   terraform apply
   ```
