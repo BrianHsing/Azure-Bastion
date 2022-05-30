@@ -4,23 +4,23 @@
 
 - 進入虛擬機器設定 Active Directory 網域服務 <br> 
 	- 進入 Azure Portal，選擇虛擬機器 ADDS，使用 Bastion 連線 (isadmin/isadmin@123) <br>
-	  ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/adds2.png "adds2")<br>
+	  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds2.png "adds2")<br>
 	- 開啟伺服器管理員 (Server Manager)，點選 Promote this server to a domain controller<br>
-	  ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/adds3.png "adds3")<br>
+	  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds3.png "adds3")<br>
 	- 點選 Add a new forest，並輸入 Root domain name，此範例先設定 brianhsing.club，後續再做 AAD Connect 時，就不需要再另外設定 UPN 尾碼。<br>
 	> **Tips.請不要使用結尾為「.local」的網域，此網域無法在虛擬網路內路由** <br>
 	
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/adds4.png "adds4")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds4.png "adds4")<br>
 	- 自行輸入 Directory Services Restore Mode 密碼<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/adds5.png "adds5")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds5.png "adds5")<br>
 	- DNS Option 直接選擇下一步<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/adds6.png "adds6")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds6.png "adds6")<br>
 	- Additional Option 直接選擇下一步，稍後登入會使用 NETBIOS\isadmin 帳號格式<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/adds7.png "adds7")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds7.png "adds7")<br>
 	- Path 直接選擇下一步。如果是正式環境，建議將這三個資料夾與系統磁區分開<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/adds8.png "adds8")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds8.png "adds8")<br>
 	- Review Option 下一步後，Prerequisites Check 頁面選擇 Install，等待安裝結束後，會自動開機。<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/adds9.png "adds9")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds9.png "adds9")<br>
 
 # 將 srv01 加入網域
 
