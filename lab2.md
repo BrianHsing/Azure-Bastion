@@ -9,7 +9,7 @@
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds3.png "adds3")<br>
 	- 點選 Add a new forest，並輸入 Root domain name，此範例先設定 brianhsing.club，後續再做 AAD Connect 時，就不需要再另外設定 UPN 尾碼。<br>
   	  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds4.png "adds4")<br>
-		
+
 	> **Tips.請不要使用結尾為「.local」的網域，此網域無法在虛擬網路內路由** <br>
 	
 	
@@ -20,9 +20,9 @@
 	- Additional Option 直接選擇下一步，稍後登入會使用 NETBIOS\isadmin 帳號格式<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds7.png "adds7")<br>
 	- Path 直接選擇下一步。如果是正式環境，建議將這三個資料夾與系統磁區分開<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds8.png "adds8")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds8.png "adds8")<br>
 	- Review Option 下一步後，Prerequisites Check 頁面選擇 Install，等待安裝結束後，會自動開機。<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/tree/master/Lab2/adds9.png "adds9")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds9.png "adds9")<br>
 
 # 將 srv01 加入網域
 
