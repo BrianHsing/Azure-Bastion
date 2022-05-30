@@ -59,6 +59,7 @@
 - 成功後，點選是<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/rdp3.png "rdp3")<br>
 - 成功登入畫面，並且為網域管理員身分<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/rdp4.png "rdp4")<br>
 
 
 前往 [Lab3 - 使用 RDP 連線至 Linux VM](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab3.md)<br>
