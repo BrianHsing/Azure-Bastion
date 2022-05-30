@@ -21,6 +21,5 @@ Azure Bastion 可讓您使用瀏覽器和 Azure 入口網站連線到虛擬機�
 ## 演練流程 <br>
 
 - [Lab1 - 透過 Terraform on Azure 快速建立環境](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab1.md)<br>
-- [Lab2 - 使用 Kerberos 驗證](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab2.md)<br>
+- [Lab2 - 使用原生用戶端連線至 VM 並且利用 Kerberos 驗證](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab2.md)<br>
 - [Lab3 - 使用 RDP 連線至 Linux VM](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab3.md)<br>
-- [Lab4 - 使用原生用戶端連線至 VM](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab4.md)<br>
