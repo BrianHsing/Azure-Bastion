@@ -507,4 +507,4 @@ export ARM_CLIENT_SECRET="<您的password>"
   ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/terraformfinish.png "terraformfinish")<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Bastion/blob/main/images/azureresource.png "azureresource")<br>
 
-前往 [Lab2 - 使用 Kerberos 驗證](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab2.md)<br>
+前往 [Lab2 - 使用原生用戶端連線至 VM 並且利用 Kerberos 驗證](https://github.com/BrianHsing/Azure-Bastion/blob/main/lab2.md)<br>
